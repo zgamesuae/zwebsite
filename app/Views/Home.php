@@ -162,7 +162,7 @@ echo view("Shopbycategory" , ["categories_elements" => $cats]);
 <!-- Other acts carousel -->
 
 <?php 
-if($bundle_offers && false){
+if($bundle_offers){
     $car_params = [
         "section_background" => [
             // "desktop" => base_url()."/assets/others/carrousel_section_white_friday_desktop.jpg",

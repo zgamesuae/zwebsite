@@ -8,8 +8,12 @@ defined('PGTEST') || define('PGTEST', '0');
 defined('CURRENCY') || define('CURRENCY', 'AED');
 defined('PHONE_CODE') || define('PHONE_CODE', '+971');
 defined('TIME_ZONE') || define('TIME_ZONE', 'Asia/Dubai');
+// Tabby Product
 defined('TABBY_SECRET_KEY') || define('TABBY_SECRET_KEY', "sk_f5b5b0c4-eec9-4607-a284-56b3494607eb");
 defined('TABBY_PUBLIC_KEY') || define('TABBY_PUBLIC_KEY', "pk_6c358e4f-fb51-4e6f-95db-7adb6702efcd");
+// Tabby SandBox
+// defined('TABBY_SECRET_KEY') || define('TABBY_SECRET_KEY', "sk_test_88d02523-25ef-49b3-8420-6f0b2ffc0c4b");
+// defined('TABBY_PUBLIC_KEY') || define('TABBY_PUBLIC_KEY', "pk_test_2e120219-d410-428d-8052-13304e5990d1");
 defined('TABBY_MERCHANT_CODE') || define('TABBY_MERCHANT_CODE', 'ZGUAE');
 
 

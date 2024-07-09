@@ -1,6 +1,8 @@
 <?php
 namespace App\Controllers;
 use App\Controllers\cat\Xbox;
+use chillerlan\QRCode\QRCode;
+use chillerlan\QRCode\QROptions;
 class Yahiacheck extends BaseController{
     
     public function index1(){
@@ -335,7 +337,6 @@ class Yahiacheck extends BaseController{
             echo ($i." from ".sizeof($p)." Updated");
     }
 
-
     public function bts_page(){
         // $userModel = model("App\Model\UserModel");
         // $v = new Xbox();
@@ -372,13 +373,42 @@ class Yahiacheck extends BaseController{
         $user_id = ($session->get("userLoggedin")) ?? session_id();
         $cart = $this->orderModel->get_user_cart($user_id);
         $bool = true;
+        
+        // var_dump($this->productModel->get_product_screenshots("ps4-battlefield-v-16667840627516"));
         // var_dump($this->ezpinModel->ezpin_get_order_info("64218d76-4e08-4068-8f5b-d8456f25b541"));
-        var_dump($this->ezpinModel->update_pending_orders());   
+        // var_dump($this->ezpinModel->update_pending_orders());   
         // var_dump($this->ezpinModel->register_webhook("https://zgames.ae/notifications/ezpin/listener/"));
         // var_dump($this->ezpinModel->zg_currency_exchange_update());
-        // echo view("Common/Header");
+        // echo view("Product_carousel" , array_merge($b_offers , $car_params) );
         // echo view("newsletter/newsletter_preview");
+        
+
+        // $path = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT0ugnp2EmULIj4eSwcfmPMk4Zc_gWyT8gtFqctZJhDmYP4mOabp9YLJGPVWw77bEb8klhSKhBHpAN_/pub?gid=1336459689&single=true&output=csv";
+        // $handle = fopen($path, "r");
+        // $table = array();
+
+        // if($handle){
+        //     while($data = fgetcsv($handle , 1000 , ",")){
+        //         array_push($table , $data);
+        //     }
+        // }
+
+        // echo view("Common/Header");
+        echo view("newsletter/Newsletter_preview");
         // echo view("Common/Footer");
+
+        /**
+         * Generate QR codes
+         *  */ 
+        // $options = new QROptions([]);
+        
+        // // foreach ($urls as $sku => $url) {
+        //     # code...
+        //     $file = ROOTPATH . "/assets/others/QR/kgaming-review_qr_code.svg";
+        //     (new QRCode($options))->render("https://zgames.ae/kgaming/review", $file);
+        // // }
+        var_dump(intdiv(3 , 1));
+
     }
 
     public function download_image(){
@@ -386,11 +416,16 @@ class Yahiacheck extends BaseController{
         // var_dump($http_response_header);die();
         // var_dump(ROOTPATH);die();
         // Save location path
-        $location = ROOTPATH."/assets/others/listing/10-05-2024/funkos";
+        $location = ROOTPATH."/assets/others/listing/06-06-2024/topps";
         // Array of image links
         $imageLinks = [
+            
 
-            "889698775410" => ["pop-comic-cover-marvel-amazing-spider-man" , "https://cdn.shopify.com/s/files/1/0564/2469/files/FU77541.jpg,https://cdn.shopify.com/s/files/1/0564/2469/files/FU77541_2.jpg,https://cdn.shopify.com/s/files/1/0564/2469/files/FU77541_3.jpg"],
+            "5053307067868" => ["topps-match-attax-euro-2024-single-pack" , "https://www.whsmith.co.uk/mobify/caching/assets/product-image/extra-large/61037182_1.jpg,https://www.whsmith.co.uk/mobify/caching/assets/product-image/extra-large/61037182_2.jpg"],
+            "5053307067882" => ["topps-match-attax-euro-2023-2024-starter-pack" , "https://m.media-amazon.com/images/I/71a-Avi8psL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/71QrddiZAaL._AC_SL1500_.jpg,https://m.media-amazon.com/images/I/61+FYglY+lL._AC_SL1500_.jpg"],
+            "5053307067912" => ["topps-match-attax-euro-2024-mini-tin" , "https://m.media-amazon.com/images/I/61A8fOXzEyL._AC_SL1000_.jpg,https://m.media-amazon.com/images/I/51VxwfREBwL._AC_.jpg,https://m.media-amazon.com/images/I/61JFJX13OgL._AC_.jpg,https://m.media-amazon.com/images/I/51AL3i8-G0L._AC_.jpg,https://m.media-amazon.com/images/I/51tuA2lK7cL._AC_.jpg,https://m.media-amazon.com/images/I/51MdrBv7zOL._AC_.jpg,https://m.media-amazon.com/images/I/51W3K96ZGvL._AC_.jpg,https://m.media-amazon.com/images/I/51U2Kbri1gL._AC_.jpg,https://m.media-amazon.com/images/I/51cZ03aJd6L._AC_.jpg"],
+            "5053307067929" => ["topps-match-attax-euro-2024-mega-tin" , "https://m.media-amazon.com/images/I/61KnzUDST3L._AC_.jpg,https://m.media-amazon.com/images/I/51qZH8-n5wL._AC_.jpg,https://m.media-amazon.com/images/I/51wCR-jOdjL._AC_.jpg,https://m.media-amazon.com/images/I/512yriNTWZL._AC_.jpg,https://m.media-amazon.com/images/I/61K+i-m1M8L._AC_.jpg,https://m.media-amazon.com/images/I/51PFcJja35L._AC_.jpg,https://m.media-amazon.com/images/I/51VxwfREBwL._AC_.jpg,https://m.media-amazon.com/images/I/61JFJX13OgL._AC_.jpg,https://m.media-amazon.com/images/I/51MdrBv7zOL._AC_.jpg"],
+            
 
         ];
 
@@ -447,4 +482,4 @@ class Yahiacheck extends BaseController{
 
     }
 
-}   
+}
