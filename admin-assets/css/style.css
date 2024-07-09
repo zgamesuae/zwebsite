@@ -1,0 +1,8 @@
+body.vertical-layout.vertical-menu-modern.menu-expanded .main-menu .navigation li.has-sub > a:not(.mm-next):after {
+   
+    /*content: "\f0d7"!important;*/
+     content: "\f0da"!important;
+    
+   
+    font: normal normal normal 14px/1 FontAwesome !important;
+}
