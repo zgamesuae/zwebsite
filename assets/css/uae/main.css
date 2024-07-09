@@ -1,0 +1,319 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background: #f2f2f2;*/
+}
+
+.j-c-center{
+    justify-content: center;
+}
+
+.d-flex-row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.d-flex-column{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.j-c-center{
+    justify-content: center;
+}
+.j-c-start{
+    justify-content: flex-start;
+}
+
+.j-c-end{
+    justify-content: flex-end;
+}
+
+
+
+
+.a-c-center{
+    align-content: center;
+}
+
+.a-c-flexstart{
+    align-content: flex-start;
+}
+
+.a-a-center{
+    align-items: center;
+}
+
+.a-a-start{
+    align-items: flex-start;
+}
+
+.j-c-spacearound{
+    justify-content: space-around;
+}
+
+.j-c-spacebetween{
+    justify-content: space-between;
+}
+.search_form {
+    background: #fff;
+    /*overflow: hidden;*/
+    /* border-radius: 20px;*/
+}
+.bg-dark {
+    background-color: #171717 !important;
+}
+a{
+    color: #000;
+}
+.btn {
+    font-size: 15px;
+}
+.btn {
+    border: 1px solid transparent !important;
+    padding: 10px 16px;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    border-radius: 0 !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+}
+header.header {
+    /* position: fixed; */
+    background: #03223e;
+    /* top: 0; */
+    z-index: 99;
+}
+.counter_cart {
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    background: #fac70a;
+    width: 19px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 13px;
+}
+.search_form {
+    border-radius: 8px;
+}
+.header_top,
+.search_form {
+    transition: .5s;
+}
+.footer_menu {
+    text-align: center;
+    margin-top: 18px;
+}
+.copyright_footer {
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px;
+}
+.header_bottom h3 {
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer_payment_logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer_payment_logo img {
+    height: 45px;
+}
+.header_contact_info li {
+    display: block;
+    padding-right: 22px;
+}
+
+.header_contact_info li a {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header_contact_info li:last-child a {
+    font-size: 14px;
+}
+
+.header_contact_info li a span {
+    margin-left: 9px;
+}
+.header_contact_info li svg {
+    fill: #000;
+}
+.pb-3 {
+    padding-bottom: 1rem !important;
+}
+.social_media svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    margin-right: 0;
+}
+ul.m-0.header_contact_info li {
+    padding-bottom: 7px !important;
+}
+.footer_inner h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 19px;
+    /* letter-spacing: 1px; */
+    margin-bottom: 22px;
+    position: relative;
+    color: #fff;
+}
+
+.footer_inner ul li {
+    padding: 3px 0;
+    list-style-type: none;
+}
+
+.footer_inner h5::after {
+    background: #f1f1f1;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -15px;
+}
+.footer_inner ul li a {
+    font-size: 15px;
+    color: #fff;
+}
+
+ul.m-0.header_contact_info.p-0 li:nth-child(4) a span {
+    font-size: 19px;
+}
+
+ul.m-0.header_contact_info.p-0 li:nth-child(3) a span {
+    font-size: 19px;
+}
+
+footer .header_contact_info li a span {
+    text-transform: lowercase;
+}
+
+.footer_inner ul {
+    padding-left: 15px;
+}
+
+.footer_inner {
+    text-transform: capitalize;
+}
+
+.footer_inner {
+    text-transform: capitalize;
+}
+
+.footer_inner ul {
+    padding-left: 0;
+    margin-bottom: 39px;
+}
+
+.footer_inner ul li {
+    padding: 3px 0;
+}
+
+.social_media .icon {
+    display: inline-block;
+    /* padding-right: 12px; */
+    /* margin-top: 11px; */
+}
+footer.container-fluid {
+    padding: 0px;
+    background: #03223e !important;
+    box-shadow: -1px -3px 13px #1a1a1a2e;
+}
+.header_bottom {
+    margin-top: 31px;
+}
+
+.footer_logo {
+    margin-bottom: 17px;
+}
+
+.footer_logo img {
+    width: 92px;
+}
+.header_contact_info svg {
+    fill: #fff !important;
+}
+.header_bottom {
+    background: #011424;
+    padding: 27px 0;
+}
+/*end custom chedkcbox*/
+/*ARJUN CSS START 17-6-21*/
+.bg-light {
+    background-color: #e6e6e6 !important;
+}
+.footer_business_title {
+    font-size: 17px;
+}
+
+ul.m-0.header_contact_info.p-0 li:nth-child(3) a span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+ul.m-0.header_contact_info.p-0 li:nth-child(4) a span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer_firts_column a {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+.footer_fix_mobile_whatsapp svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+}
+
+.footer_fix_mobile_whatsapp a {
+    width: 50px;
+    height: 50px;
+    background: #4caf50;
+    padding-top: 10px;
+    border-radius: 100%;
+    fill: #fff;
+    position: fixed;
+    left: 12px;
+    z-index: 9999;
+    bottom: 12px;
+    text-align: center;
+    display: block;
+}
+.shadow-sm {
+    box-shadow: 0 0 5px #00000030 !important;
+}
+footer.container-fluid {
+    overflow: hidden;
+}
+
+.eye_password {
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    top: 8px;
+    fill: #d4d1d1;
+}
+
+.result-item .result_row:hover{
+    background-color: #22398d0d;
+    
+}

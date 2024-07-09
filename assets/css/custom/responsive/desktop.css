@@ -1,0 +1,25 @@
+/* medium screns */
+@media screen and (max-width: 1220px) {
+    .container-fluid .two-banners .banner .overlay_title h3 {
+        font-size: 18px
+    }
+}
+
+/* large screens */
+@media screen and (min-width:1240px) {
+    .product_box_image {
+        max-height: 225px !important
+    }
+}
+
+@media screen and (min-width: 770px) {
+    #acount_menu_open_dic svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .home_h_banner .mobile_img {
+        display: none;
+    }
+
+}

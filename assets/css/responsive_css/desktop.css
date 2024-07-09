@@ -1,0 +1,98 @@
+/* Max-width 1199px */
+@media (max-width: 1199px) {
+    .header_top_right a.cart {
+        position: relative;
+        width: 39px;
+    }
+}
+/* Max-width 1199px */
+
+/* Max-width 1200px */
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1232px;
+    }
+
+    .service_box_min {
+        max-width: 20%;
+    }
+
+    .service_box img {
+        max-height: 418px;
+        object-fit: contain;
+    }
+
+    .shop_brand_shop_by .row .col-lg-1 {
+        max-width: 12.5%;
+    }
+
+    .sevan_items_slider .col-lg-2 {
+        max-width: 14%;
+    }
+
+    .arrow_center_cate_slider_point .owl-nav {
+        top: 20%;
+    }
+}
+/* Max-width 1200px */
+
+/* Max-width 1200px */
+@media screen and (max-width: 1200px) {
+    .shop_by_games_box h2 {
+        font-size: 26px;
+    }
+
+    .shop_by_games_box h1 {
+        text-transform: lowercase;
+        font-size: 37px;
+    }
+
+    .shop_by_games_box a {
+        height: 170px;
+    }
+}
+/* Max-width 1200px */
+
+/* Max-width 1122px */
+@media screen and (max-width: 1122px) {
+    .shop_by_games_box a {
+        height: 155px;
+        padding-top: 26%;
+    }
+
+    .shop_by_games_box h2 {
+        font-size: 24px;
+    }
+
+    .shop_by_games_box h1 {
+        font-size: 26px;
+    }
+}
+/* Max-width 1122px */
+
+/* Max-width 1150px */
+@media screen and (min-width: 1150px) {
+    .cate_sliders_design_two {
+        display: none !important;
+    }
+
+    .shop_by_cate_desktop_slider_row_with_box {
+        display: block !important;
+    }
+
+    .shop_by_cate_desktop_slider_row_with_box .row .col-2 {
+        max-width: 17%;
+        flex: 1;
+    }
+
+    .shop_by_cate_desktop_slider_row_with_box .service_box img {
+        height: 446px;
+        object-fit: fill;
+    }
+}
+/* Max-width 1150px */

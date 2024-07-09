@@ -1,0 +1,104 @@
+
+@mixin spins($spin) {
+    from {transform: rotate(0deg)}
+      to {transform: rotate(720deg + $spin * 36deg)}
+  }
+
+  
+  
+  
+  body {
+    // background: #9ee1f7;
+  }
+  
+  .wheel-container {
+    // width: 600px;
+    background-color: #c9def9;
+    margin: 0 auto;
+  }
+  .copy h1 {
+    color: #3d3d3d;
+    text-align: center;
+    // font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    margin: 0 0px 50px;
+  }
+  .wheel-container .wrapper {
+    margin: 50px 0 25px;
+    position: relative;
+  }
+  
+  .pointer-wrapper {
+    position: absolute;
+    top: -25px;
+    left:50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    
+  }
+
+  @keyframes rjump{
+    from{
+      transform: rotateZ(0deg);
+    }
+    to{
+      transform: rotateZ(15deg);
+    }
+    
+  }
+
+  .pointer-wrapper.balance img:hover{
+    
+    // animation: rjump .8s ease-in-out 0s alternate-reverse  ;
+    transform-origin: 50% 0%;
+    animation-name: rjump;
+    animation-duration: .2s;
+    animation-delay: 0s;
+    // animation-iteration-count: 0;
+    // animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    // transform: rotateZ(15deg);
+  }
+  
+  .wheel-container .button {
+    margin: 0 0 40px;
+  }
+  .wheel-container .btn {
+    display:block;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 250px;
+    height: 60px;
+    color: #ffffff;
+    background: #e01a22;
+    
+    &:hover{
+      background: #f08d90;
+    }
+    
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .modal-prize{
+    display: none;
+  }
+
+  
+  
+  
+  
+  
+  // @for $i from 1 through 10 {
+  //   .wheel-#{$i} {  animation: spin#{$i} 6s ease-out 1; }
+  // }
+  
+  // @for $i from 1 through 10 {
+  //   @keyframes spin#{$i} {
+  //     @include spins($i);
+  //   }
+  // }

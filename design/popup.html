@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>title</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link  rel="shortcut icon" type="image/x-icon" href="img/logo.png" >
+  <link rel="stylesheet" type="text/css" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+
+
+
+<header class="container-fluid header p-0">
+    <div class="container header_top">
+      <div class="row justify-content-between">
+        <div class="col-6">
+          <div class="social_media">
+            <ul>
+              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"/></svg></a></li>
+              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/></svg></a></li>
+              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg></a></li>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308a.961.961 0 0 0-.371.1 1.293 1.293 0 0 0-.294.228c-.12.113-.188.211-.261.306A2.729 2.729 0 0 0 6.9 9.62c.002.49.13.967.33 1.413.409.902 1.082 1.857 1.971 2.742.214.213.423.427.648.626a9.448 9.448 0 0 0 3.84 2.046l.569.087c.185.01.37-.004.556-.013a1.99 1.99 0 0 0 .833-.231c.166-.088.244-.132.383-.22 0 0 .043-.028.125-.09.135-.1.218-.171.33-.288.083-.086.155-.187.21-.302.078-.163.156-.474.188-.733.024-.198.017-.306.014-.373-.004-.107-.093-.218-.19-.265l-.582-.261s-.87-.379-1.401-.621a.498.498 0 0 0-.177-.041.482.482 0 0 0-.378.127v-.002c-.005 0-.072.057-.795.933a.35.35 0 0 1-.368.13 1.416 1.416 0 0 1-.191-.066c-.124-.052-.167-.072-.252-.109l-.005-.002a6.01 6.01 0 0 1-1.57-1c-.126-.11-.243-.23-.363-.346a6.296 6.296 0 0 1-1.02-1.268l-.059-.095a.923.923 0 0 1-.102-.205c-.038-.147.061-.265.061-.265s.243-.266.356-.41a4.38 4.38 0 0 0 .263-.373c.118-.19.155-.385.093-.536-.28-.684-.57-1.365-.868-2.041-.059-.134-.234-.23-.393-.249-.054-.006-.108-.012-.162-.016a3.385 3.385 0 0 0-.403.004z"/></svg></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="header_top_right">
+          <div class="login" data-toggle="modal" data-target="#jagat-login-modal">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M10 11V8l5 4-5 4v-3H1v-2h9zm-7.542 4h2.124A8.003 8.003 0 0 0 20 12 8 8 0 0 0 4.582 9H2.458C3.732 4.943 7.522 2 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10c-4.478 0-8.268-2.943-9.542-7z"></path></svg>
+          <span>login</span>
+      </div>
+      <div class="register" data-toggle="modal" data-target="#jagat-login-modal">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12.684 4.029a8 8 0 1 0 7.287 7.287 7.936 7.936 0 0 0-.603-2.44l1.5-1.502A9.933 9.933 0 0 1 22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2a9.982 9.982 0 0 1 4.626 1.132l-1.501 1.5a7.941 7.941 0 0 0-2.44-.603zM20.485 2.1L21.9 3.515l-9.192 9.192-1.412.003-.002-1.417L20.485 2.1z"></path></svg>
+          <span>register</span>
+      </div>
+      
+            </div>
+         <!--  <div class="widhlist_header">
+            <ul>
+              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M4 16V4H2V2h3a1 1 0 0 1 1 1v12h12.438l2-8H8V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5a1 1 0 0 1-1-1zm2 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg></a></li>
+              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0H24V24H0z"/><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228zm6.826 1.641c-1.5-1.502-3.92-1.563-5.49-.153l-1.335 1.198-1.336-1.197c-1.575-1.412-3.99-1.35-5.494.154-1.49 1.49-1.565 3.875-.192 5.451L12 18.654l7.02-7.03c1.374-1.577 1.299-3.959-.193-5.454z"/></svg></a></li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  <div class="container header_middle">
+    <div class="row align-items-center ">
+      <div class="col-md-3  "  id="logo_headre_s">
+        <div class="left_mobile_side_show">
+         <div class="icon desktop_hidden_mobile_show" id="menu_optn_mobile">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+        </div>
+          </div>
+          <div class="header_logo">
+            <img src="img/logo.png">
+          </div>
+        </div>
+        <div class="col-md-6 position_unset" id="menu_parent_coumn">
+              <div class="navigation_header">
+                <div class="navigation_mene" style="display: none;">
+                  <div class="menui_icon_icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+                    </div>
+                  </div>
+                <ul class="main_menu">
+                  <li>
+                    <div class="dropdown_m_menu">
+                    <a class="drop_down_enable" href="#">home</a>
+                    <svg style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-5-9h10v2H7v-2z"/></svg>
+                    </div>
+                    <ul class="drop_drow_menu">
+                      <div class="drp_menu">
+                        <ul class="open_menu_mobile_s">
+                          <li><a href="#"><span>Baby Room  </span></a></li>
+                          <li><a href="#"><span>outdoor  </span></a></li>
+                          <li><a href="#"><span>gaming  </span></a></li>
+                          <li><a href="#"><span>gift finder  </span></a></li>
+                          <li>
+                            <div class="dropdown_m_menu remove_after_arrow">
+                            <a href="#" class="drop_down_enable"  ><span>other  </span><span class="dropdown_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z"/></svg></span></a>
+                            <svg style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-5-9h10v2H7v-2z"/></svg>
+                            </div>
+                            <ul class="open_menu_mobile_s">
+                                <li><a href="#"><span>Baby Room  </span></a></li>
+                                <li><a href="#"><span>outdoor  </span></a></li>
+                                <li><a href="#"><span>Baby Room  </span></a></li>
+                                <li><a href="#"><span>outdoor  </span></a></li>
+                                <li><a href="#"><span>gaming  </span></a></li>
+                                <li>
+                                  <div class="dropdown_m_menu remove_after_arrow">
+                                    <a class="drop_down_enable" href="#"><span>other  </span><span class="dropdown_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z"/></svg></span></a>
+                                    <svg  style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-5-9h10v2H7v-2z"/></svg>
+                                    </div>
+                                <ul class="open_menu_mobile_s">
+                                    <li><a href="#"><span>Baby Room  </span></a></li>
+                                    <li><a href="#"><span>outdoor </span></a></li>
+                                    <li><a href="#"><span>Baby Room  </span></a></li>
+                                    <li><a href="#"><span>outdoor  </span></a></li>
+                                    <li><a href="#"><span>gaming  </span></a></li>
+                                    <li><a href="#"><span>gift finder  </span></a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </ul>
+                  </li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Games</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="login_mobile_button" style="display: none">
+                <a href="#">login</a>
+                <a href="#">register</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-6" id="acount_menu_open_dic">
+                <!-- <div class="header_top_right">
+                  <div class="user_acount mr-3">
+                    <div class="dropdown">
+                      <div class="dropdown-toggle"  data-toggle="dropdown">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M4 22a8 8 0 1 1 16 0h-2a6 6 0 1 0-12 0H4zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"/></svg>
+                        <span>Arjun</span>
+                      <span class="caret"></span></div>
+                      <ul class="dropdown-menu border-0 p-3">
+                        <li class="pb-2"><a href="#">Profile</a></li>
+                        <li class="pb-2"><a href="#">Change Password</a></li>
+                        <li class="pb-2"><a href="#">Notification</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> -->
+                 <div class="widhlist_header">
+            <ul>
+              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M4 16V4H2V2h3a1 1 0 0 1 1 1v12h12.438l2-8H8V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5a1 1 0 0 1-1-1zm2 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg></a></li>
+              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0H24V24H0z"/><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228zm6.826 1.641c-1.5-1.502-3.92-1.563-5.49-.153l-1.335 1.198-1.336-1.197c-1.575-1.412-3.99-1.35-5.494.154-1.49 1.49-1.565 3.875-.192 5.451L12 18.654l7.02-7.03c1.374-1.577 1.299-3.959-.193-5.454z"/></svg></a></li>
+            </ul>
+          </div>
+            </div>
+    </div>
+  </div>
+</header>
+
+<div class="header_blanck_spoaCE"></div>
+<div class="container-fluid p-0 bg-light pb-5">
+<style>
+.breadcrumbs_nav ul li {
+     padding-right: 0px;
+    </style>
+
+<div class="container breadcrumbs_nav">
+  <ul>
+    <li><a href="">Home</a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+     <li><span> / &nbsp;</span> <a href="/profile">profile</a>  </li>
+    
+     
+    
+    
+    
+     
+  </ul>
+</div>  <div class="container pb-5 mb-2 mb-md-4  pt-5">
+      <div class="row">
+   <!--     <div class="col-12 mb-2">
+          <div class="heading text-capitalize " >
+            <h4 class="font-weight-bold">Profile</h4>
+          </div>
+        </div>-->
+        <div class="col-lg-4 mb-3">
+      
+
+
+    <div class="bg-white shadow-sm p-3 rounded">
+            <div class="account_user_profile_left_side">
+              <h4><strong>Account </strong></h4>
+              <ul>
+                  <a  data-toggle="modal" data-target="#edit_profile"  href="#" class="active"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 22a8 8 0 1 1 16 0h-2a6 6 0 1 0-12 0H4zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"></path></svg> <span>Edit Profile</span></a>
+                  
+                  
+                  
+                  <a data-toggle="modal" data-target="#changePassword" class="" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976L12 1zm0 2.049L5 4.604v9.185a4 4 0 0 0 1.781 3.328L12 20.597l5.219-3.48A4 4 0 0 0 19 13.79V4.604L12 3.05zM12 7a2 2 0 0 1 1.001 3.732L13 15h-2v-4.268A2 2 0 0 1 12 7z"></path></svg><span>Change Password</span></a>
+                
+                  <a class="" href="/profile/wishlist"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0H24V24H0z"></path><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228zm6.826 1.641c-1.5-1.502-3.92-1.563-5.49-.153l-1.335 1.198-1.336-1.197c-1.575-1.412-3.99-1.35-5.494.154-1.49 1.49-1.565 3.875-.192 5.451L12 18.654l7.02-7.03c1.374-1.577 1.299-3.959-.193-5.454z"></path></svg><span>My Wishlist</span></a>
+                  <a class="" href="/profile/myOrders"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6.5 2h11a1 1 0 0 1 .8.4L21 6v15a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6l2.7-3.6a1 1 0 0 1 .8-.4zM19 8H5v12h14V8zm-.5-2L17 4H7L5.5 6h13zM9 10v2a3 3 0 0 0 6 0v-2h2v2a5 5 0 0 1-10 0v-2h2z"></path></svg><span>My Orders</span></a>
+                  
+                  
+                      
+                      
+                       <a class="" href="/profile/address"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9l4.95-4.95zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path></svg><span>My Address</span></a>
+                  
+                    <a href="logout"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2a9.985 9.985 0 0 1 8 4h-2.71a8 8 0 1 0 .001 12h2.71A9.985 9.985 0 0 1 12 22zm7-6v-3h-8v-2h8V8l5 4-5 4z"></path></svg><span>Logout</span></a>
+              </ul>
+            </div>
+          </div>        </div>
+        
+        <!-- Sidebar-->
+       
+      </div>
+     
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="modal" id="changePassword">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Edit Profile</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      
+     <form method="post">
+                    <div class="row">
+                        
+                                                             
+                      <div class="col-sm-12">
+                        <div class="mb-3">
+                          <label class="form-label" for="checkout-fn">Old Password</label>
+                          <input class="form-control" name="old_password" required="" type="password">
+                        </div>
+                      </div>
+                      
+                      
+                      <div class="col-sm-12">
+                        <div class="mb-3">
+                          <label class="form-label" for="checkout-fn">New Password</label>
+                          <input class="form-control" name="new_password" required="" type="password">
+                        </div>
+                      </div>
+                      
+                      
+                      <div class="col-sm-12">
+                        <div class="mb-3">
+                          <label class="form-label" for="checkout-fn">Confirm Password</label>
+                          <input class="form-control" name="confirm_password" required="" type="password">
+                        </div>
+                      </div>
+                        
+                     
+                   
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="mb-3">
+                          <button type="submit" class="w-100 btn btn-primary">Save</button>
+                        </div>
+                      </div>
+                    </div>
+                    </form>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="edit_profile">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Edit Profile</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      
+      <div class="m-0">
+            <div class="">
+           
+                <section class="col-lg-12 pt-3">
+                    <form method="post" enctype="multipart/form-data">
+                    <div class="row">
+                         <div class="col-sm-6">
+                        <div class="mb-3">
+                          <label class="form-label" for="checkout-fn">Profile Image</label>
+                          <input class="form-control p-0 image_file_s" name="file" required="" type="file" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
+                        </div>
+                      </div>
+                       <div class="col-sm-6">
+                        <div class="mb-3">
+                         
+                        <img id="blah" src="/assets/uploads/noimg.png" alt="your image" width="70" height="70">
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <div class="mb-3">
+                          <label class="form-label" for="checkout-fn">Name</label>
+                          <input class="form-control" name="name" required="" value="arjun" type="text">
+                        </div>
+                      </div>
+                      
+                      
+                       
+                      
+
+                      
+                      
+                      
+                      <div class="col-sm-12">
+                        <div class="mb-3">
+                          <label class="form-label">Email</label>
+                          <input disabled="" class="form-control" type="email" value="eductiong12@gmail.com" name="email">
+                        </div>
+                      </div>
+                     <div class="col-sm-12">
+                        <div class="mb-3">
+                          <label class="form-label" for="checkout-fn">Phone</label>
+                          <input class="form-control" type="text" value="" name="phone">
+                        </div>
+                      </div>
+                        <div class="col-sm-12">
+                        <div class="mb-3">
+                          <label class="form-label" for="checkout-fn">City</label>
+                          <input class="form-control" value="" type="text" name="city">
+                        </div>
+                      </div>
+                     <div class="col-sm-12">
+                        <div class="mb-3">
+                          <label class="form-label" for="checkout-fn">Address</label>
+                          <input class="form-control" type="text" value="" name="address">
+                        </div>
+                      </div>
+                     
+                   
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="mb-3">
+                          <button type="submit" class="w-100 btn btn-primary">Save</button>
+                        </div>
+                      </div>
+                    </div>
+                    </form>
+                  </section>
+            </div>
+          </div>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid bg-light pt-3 ">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-3 col-sm-6 mt-4">
+          <div class="footer_inner">
+            <div class="footer_logo">
+              <img src="https://zamzamgames.com/design/img/RE1MmB8.png">
+          </div>
+          <h6 class="text-white footer_business_title"><strong>enter Subtitle here  </strong></h6>
+          <ul class="m-0 header_contact_info p-0 footer_firts_column">
+              <li class="pb-3">
+                <a href="tel:971 00 0000 0000">
+                  <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M9.366 10.682a10.556 10.556 0 0 0 3.952 3.952l.884-1.238a1 1 0 0 1 1.294-.296 11.422 11.422 0 0 0 4.583 1.364 1 1 0 0 1 .921.997v4.462a1 1 0 0 1-.898.995c-.53.055-1.064.082-1.602.082C9.94 21 3 14.06 3 5.5c0-.538.027-1.072.082-1.602A1 1 0 0 1 4.077 3h4.462a1 1 0 0 1 .997.921A11.422 11.422 0 0 0 10.9 8.504a1 1 0 0 1-.296 1.294l-1.238.884zm-2.522-.657l1.9-1.357A13.41 13.41 0 0 1 7.647 5H5.01c-.006.166-.009.333-.009.5C5 12.956 11.044 19 18.5 19c.167 0 .334-.003.5-.01v-2.637a13.41 13.41 0 0 1-3.668-1.097l-1.357 1.9a12.442 12.442 0 0 1-1.588-.75l-.058-.033a12.556 12.556 0 0 1-4.702-4.702l-.033-.058a12.442 12.442 0 0 1-.75-1.588z"></path></svg>
+                  <span>971 00 0000 0000</span>
+              </a>
+          </li>
+          <li class="pb-3">
+            <a href="tel:971 00 0000 0000">
+               <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7.253 18.494l.724.423A7.953 7.953 0 0 0 12 20a8 8 0 1 0-8-8c0 1.436.377 2.813 1.084 4.024l.422.724-.653 2.401 2.4-.655zM2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308c.134-.01.269-.01.403-.004.054.004.108.01.162.016.159.018.334.115.393.249.298.676.588 1.357.868 2.04.062.152.025.347-.093.537a4.38 4.38 0 0 1-.263.372c-.113.145-.356.411-.356.411s-.099.118-.061.265c.014.056.06.137.102.205l.059.095c.256.427.6.86 1.02 1.268.12.116.237.235.363.346.468.413.998.75 1.57 1l.005.002c.085.037.128.057.252.11.062.026.126.049.191.066a.35.35 0 0 0 .367-.13c.724-.877.79-.934.796-.934v.002a.482.482 0 0 1 .378-.127c.06.004.121.015.177.04.531.243 1.4.622 1.4.622l.582.261c.098.047.187.158.19.265.004.067.01.175-.013.373-.032.259-.11.57-.188.733a1.155 1.155 0 0 1-.21.302 2.378 2.378 0 0 1-.33.288 3.71 3.71 0 0 1-.125.09 5.024 5.024 0 0 1-.383.22 1.99 1.99 0 0 1-.833.23c-.185.01-.37.024-.556.014-.008 0-.568-.087-.568-.087a9.448 9.448 0 0 1-3.84-2.046c-.226-.199-.435-.413-.649-.626-.89-.885-1.562-1.84-1.97-2.742A3.47 3.47 0 0 1 6.9 9.62a2.729 2.729 0 0 1 .564-1.68c.073-.094.142-.192.261-.305.127-.12.207-.184.294-.228a.961.961 0 0 1 .371-.1z"></path></svg>
+               <span>971 00 0000 0000</span>
+           </a>
+       </li>
+       <li class="pb-3">
+          <a href="mailto:info@zamzamdesigns.com">
+             <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"></path></svg>
+             <span>info@zamzamdesigns.com</span>
+         </a>
+     </li>
+     <li class="pb-3">
+        <a href="">
+           <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-2.29-2.333A17.9 17.9 0 0 1 8.027 13H4.062a8.008 8.008 0 0 0 5.648 6.667zM10.03 13c.151 2.439.848 4.73 1.97 6.752A15.905 15.905 0 0 0 13.97 13h-3.94zm9.908 0h-3.965a17.9 17.9 0 0 1-1.683 6.667A8.008 8.008 0 0 0 19.938 13zM4.062 11h3.965A17.9 17.9 0 0 1 9.71 4.333 8.008 8.008 0 0 0 4.062 11zm5.969 0h3.938A15.905 15.905 0 0 0 12 4.248 15.905 15.905 0 0 0 10.03 11zm4.259-6.667A17.9 17.9 0 0 1 15.973 11h3.965a8.008 8.008 0 0 0-5.648-6.667z"></path></svg>
+           <span>zamzamdesigns.com</span>
+       </a>
+   </li>
+</ul>
+</div>
+<div class="footer_inner">
+  <h5 class="text-capitalize mb-3 mt-3"><storng>Download the app</storng></h5>
+  <div class="download_the_app">
+    <a target="_blank" href="https://play.google.com/store">
+      <img src="img/playstore.png">
+  </a>
+  <a target="_blank" href="https://www.apple.com/in/app-store/">
+      <img src="img/appstore.png">
+  </a>
+</div>
+</div>
+</div>
+  <div class="col-md-3 col-sm-6 mt-4">
+           <div class="footer_inner">
+              <h5 class="text-capitalize"><storng>information</storng></h5>
+              <ul>
+                <li><a href="/about-us">About us</a></li>
+                <li><a href="/contact-us">Contact us</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+                <li><a href="/privacy-and-policy">Privacy Policy</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/delivery-information">Delivery Information</a></li>
+                <li><a href="/refund-policy">Refund Policy</a></li>
+                
+                
+            </ul>
+        </div>
+            </div>
+<div class="col-md-3 col-sm-6 mt-4">
+          <div class="footer_inner">
+            <h5 class="text-capitalize"><storng>categories</storng> </h5>
+            <ul>
+                <li><a href="#">dolce &amp; gannbana</a></li>
+                <li><a href="#">Saint Laurent</a></li>
+                <li><a href="#">Valentino Garavani</a></li>
+                <li><a href="#">Prada</a></li>
+              </ul>
+          </div>  
+         
+    </div>
+    
+    <div class="col-md-3 col-sm-6 mt-4">
+        <div class="footer_inner">
+          <h5 class="text-capitalize"><storng>follow us</storng></h5>
+          <ul class="p-0 mb-3">
+            <div class="social_media mt-2">
+              <div class="icon">
+                <a target="_blank" href="https://www.facebook.com/">
+                  <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"></path></svg>
+              </a>
+          </div>
+          <div class="icon">
+            <a target="_blank" href="https://twitter.com/">
+              <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"></path></svg>
+          </a>
+      </div>
+      <div class="icon">
+        <a target="_blank" href="https://www.linkedin.com/">
+          <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"></path></svg>
+      </a>
+  </div>
+  <div class="icon">
+    <a target="_blank" href="https://www.instagram.com/">
+      <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"></path></svg>
+  </a>
+</div>
+</div>
+</ul>
+</div>
+<div class="footer_inner">
+  <h5 class="text-capitalize mb-4"><storng>Location</storng></h5>
+  <div class="shadow-sm rounded overflow-hidden bg-white">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.0475684832013!2d55.727406314496825!3d24.24011498435029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDE0JzI0LjQiTiA1NcKwNDMnNDYuNSJF!5e0!3m2!1sen!2sae!4v1623766004485!5m2!1sen!2sae" style="width:100%;border:0;height:100%;" allowfullscreen="" loading="lazy"></iframe>   
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header_bottom">
+    <h3><strong>We accept the following payment methods</strong></h3>
+    <div class="footer_payment_logo">     
+      <img src="img/visa-icon.svg" class="" alt="VISA">       
+      <img src="img/mastercard-icon-no-text.svg" class="" alt="VISA">
+  </div>
+  <div class="footer_menu">
+  <!--     <ul>
+        <li><a href="#">Ireland</a></li>
+        <li><a href="#">Germany</a></li>
+        <li><a href="#">Austria</a></li>
+        <li><a href="#">AustriaSwitzerland</a></li>
+    </ul> -->
+</div>
+<div class="copyright_footer">
+  © 2021  ZamzamDesigns |  Website developed by <a href="https://www.quantasoftsolutions.com/" target="_blanck">Quanta Software Solutions</a>
+</div>
+</div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

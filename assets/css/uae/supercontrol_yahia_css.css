@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.d-flex-row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.d-flex-column{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.j-c-center{
+    justify-content: center;
+}
+.j-c-start{
+    justify-content: flex-start;
+}
+
+.j-c-end{
+    justify-content: flex-end;
+}
+
+
+.a-c-center{
+    align-content: center;
+}
+
+.a-a-center{
+    align-items: center;
+}
+
+.j-c-spacearound{
+    justify-content: space-around;
+}
+
+.j-c-spacebetween{
+    justify-content: space-between;
+}
+
+
+
+
+
+/* Product creation form  */
+.add_opt,.remove_opt{
+    cursor: pointer;
+    text-align:center;
+    color:white
+}
+
+.add_opt{
+    background:#25a942;
+}
+.remove_opt{
+    background:#a92525;
+}
+
+.add_opt_group,.remove_opt_group{
+    cursor: pointer;
+    text-align:center;
+    color:white
+}
+
+.add_opt_group{
+    background:#25a942;
+}
+.remove_opt_group{
+    background:#a92525;
+}

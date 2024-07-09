@@ -1,0 +1,8 @@
+input.edit_stock_qty,input.edit_precedence{
+    border:none;
+    background:none
+}
+
+.a-a-start{
+    align-items: flex-start;
+}

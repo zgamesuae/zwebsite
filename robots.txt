@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /about-us 
+Disallow: /contact-us
+Disallow: /terms-and-conditions
+Disallow: /privacy-and-policy
+Disallow: /faq
+Disallow: /delivery-information
+Disallow: /refund-policy
+Disallow: /product-list?category=*
+Disallow: /product-list?brand=*
+
+Sitemap: https://zgames.ae/ae_sitemap/sitemap.xml		
+Sitemap: https://zgames.sa/sa_sitemap/sitemap.xml		
+
+User-agent: SiteAuditBot
+Disallow: 

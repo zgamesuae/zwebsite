@@ -1,0 +1,172 @@
+
+@font-face {
+    font-family: 'gobold';
+    src: url('assets/fonts/GOBOLD BOLD.OTF') format('truetype');
+}
+
+.blog-page{
+    background-color: #010d18
+}
+
+.ws-blog-side *{
+    font-family: 'gobold', sans-serif;
+    color: white
+}
+
+.blog-page .ws-blog-heading{
+    color: rgb(241, 241, 241);
+}
+
+.ws-blog-side .ws-blog-cats{
+    font-size: 1.2rem;
+}
+
+.ws-blog-side .ws-blog-cats .ws-category-elem{
+    transition: all .2s 0s ease-in;
+}
+
+.ws-blog-side .ws-blog-cats .ws-category-elem.selected {
+    border: solid 1px white
+}
+.ws-blog-side .ws-blog-cats .ws-category-elem:hover {
+    letter-spacing: .1rem;
+}
+
+.ws-blog-side .ws-blog-cats ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.ws-blogs .blogs::-webkit-scrollbar{
+/* .ws-blogs .blogs::-webkit-scrollbar-thumb{ */
+    /* background: red; */
+    width: 8px
+}
+.ws-blogs .blogs::-webkit-scrollbar-thumb{
+    background: rgb(255, 255, 255);
+}
+
+
+/* Blog element card */
+.blogs .blog-item{
+    border: solid 1px rgba(255, 255, 255, 0.438);
+    min-height: 430px
+}
+
+.blogs .blog-item:hover .image_thubmnail img{
+    scale : 1.05
+}
+
+
+.blogs .blog-item .image_thubmnail{
+    height:250px;
+    overflow: hidden;
+}
+.blogs .blog-item .image_thubmnail img{
+    height: 100%;
+    margin: auto;
+    transition: all .5s 0s ease;
+}
+
+.blogs .blog-item .blog_content{
+    height:55%
+}
+
+.blogs .blog-item .blog-auth-date{
+    color: rgb(224, 253, 255);
+    font-size: .7rem;
+}
+
+.blogs .blog-item .blog_content .blog-title-sec{
+    height: auto;
+}
+
+.blogs .blog-item .blog_content .blog-description-sec{
+    font-size: .75rem;
+    text-align: justify;
+}
+
+.blogs .blog-item .blog_content .blog-title{
+    line-height: 1.35rem;
+    font-size: .95rem;
+
+}   
+
+/* Blog element card */
+
+/* Related Blogs */
+
+.ws-related-blogs .ws-related-blogs-title{
+    color: white;
+}
+
+.related-blogs .blog-title-sec .blog-title{
+    font-size: 1.1rem
+}
+
+.related-blogs .blog-description-sec{
+    font-size: .75rem;
+    line-height: .85rem;
+}
+
+/* Related Blogs */
+
+/* Blog details page */
+.ws-blog-details :is(li,dt){
+    color: rgb(255, 255, 255)!important;
+}
+
+.ws-blog-details :is(h1,h2,h3,h4,h5) span , .ws-blog-details :is(h1,h2,h3,h4,h5){
+    color: rgb(255, 255, 255)!important;
+}
+
+.ws-blog-details :is(p,span){
+    color: rgb(221, 221, 221)!important;
+}
+
+.ws-blog-details :is(a) span,.ws-blog-details :is(a){
+    color: #b9d2fc!important;
+    text-decoration: underline
+}
+
+.ws-blog-details .main-blog-description :is(p,span){
+    font-size: .95rem!important;
+}
+
+.ws-blog-details .image_thubmbail{
+    max-height:450px;
+    overflow: hidden;
+}
+.ws-blog-details .image_thubmbail img{
+    max-width: 100% 
+}
+
+.blogs .breadcrumbs_nav *{
+    color: white;
+    font-size: .8rem
+}
+
+/* Blog details page */
+
+@media screen and (max-width: 550px){
+    .ws-blog-side .ws-blog-cats ul::-webkit-scrollbar{
+        display: none
+    }
+    .ws-blog-side .ws-blog-cats ul{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    /* Blog elements card */
+    .blogs .blog-item .blog_content .blog-title-sec{
+        height: auto!important;
+    }
+    /* Blog elements card */
+
+    .blogs .breadcrumbs_nav *{
+        font-size: .65rem
+    }
+
+}
